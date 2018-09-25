@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang = "pt-br">
+
+	<head>
+		<title>Projeto Final de Instrumentação e Medição</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+		<link href="reset.css" rel = "stylesheet">
+		<link href="ex_pg.4.css" rel = "stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script src="../lib/app.js"></script>
+	    <script src="../lib/database.js"></script>
+	    <script src="../lib/codes.js"></script>
+	    <script src="../lib/handlebars.js"></script>
+		<script src="novo_java.js"></script>
+
+		
+
+	</head>
+
+	<body>
+		<header>
+			<div class = "secao1">
+				
+				<img id = "fotologo" src = "Insper-negativo.png" alt = "Portofolio de Disciplinas">
+				<h1 id="logo">Projetos</h1>
+				<a id="aux1" href="index.html"><img id = "volta-menu" src="home.svg" alt="Menu"></a>
+				<img id = "home" src="search-bar.png" alt="Buscar">
+			</div>
+
+			<div class = "nav-menu">
+				<ul>
+					<li class="link"> <a class="link-tit">Programação</a class="link-tit"> 
+						<ul class="submenu">
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Prog&course=dessoft">Projeto Final de Design de Software</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Prog&course=cdados">Projeto Final de Ciência dos Dados</a></li>
+		                </ul>
+		            </li>
+					<li class="link"> <a class="link-tit">Matemática</a class="link-tit"> 
+						<ul class="submenu">
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Mat&course=MatVar">Projeto Final de Matemática da Variação</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Mat&course=ModSim">Projeto Final de Modelagem e Simulação</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Mat&course=MatMulti">Projeto Final de Matemática Multivariada</a></li>
+		                </ul>
+		            </li>
+					<li class="link"> <a class="link-tit">Design</a class="link-tit"> 
+						<ul class="submenu">
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Design&course=NatDes">Melhoria para carroças</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Design&course=CoDes">Projeto Final de Co-Design de Aplicativos</a></li>
+		                </ul>
+		            </li>
+					<li class="link"> <a class="link-tit">Humanas/Pensamento Crítico</a class="link-tit">
+						<ul class="submenu">
+		                    <li class="submenu-item"> <a href="Pj4.html?category=HumPC&course=GDE">Cases de Grandes Desafios da Engenharia</a></li>
+		                </ul>
+		            </li>
+					<li class="link"> <a class="link-tit">Eletrônica e Materiais</a class="link-tit"> 
+						<ul class="submenu">
+		                    <li class="submenu-item"> <a href="Pj4.html?category=EleMat&course=Acionas">Projeto Final de Acionamentos Elétricos</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=EleMat&course=Instrumed">Estação Meteorológica</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=EleMat&course=DescontMat">Projeto Final de Desconstruindo a Matéria</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=EleMat&course=ModCont">Projeto Final de Modelagem e Controle</a></li>
+		                     <li class="submenu-item"> <a href="Pj4.html?category=EleMat&course=Girafa">Girafa Job Rotation</a></li>
+		                </ul>
+		            </li>
+					<li class="link"> <a class="link-tit">Empreendedorismo</a class="link-tit">  
+						<ul class="submenu">
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Emp&course=Inovação">Inovação incremental para empresa existente</a></li>
+		                    <li class="submenu-item"> <a href="Pj4.html?category=Emp&course=ModNeg">Modelo de negócio para startup nova</a></li>
+		                </ul>
+		            </li>
+				</ul>
+			</div>
+		</header>
+
+        <div class = "mocador">
+            <div class="load hidden"><img src="load.gif" alt="carregando"></div>
+            <main>
+                <div class = "titulo">
+                    <h1 >{{titulo}}</h1>
+                    <h4 >Matéria: {{disciplina}} </h4>
+                </div>
+
+                <div class = "gp">
+                    <div class = "obj">
+                        <h2 class="subtitulo">Objetivos do projeto:</h2>
+                        <p> {{obj}} </p>
+                    </div>
+
+                    <img id="foto_random" src = "{{imagem1}}" alt = "img1">
+
+                    <div class = "apr">
+                        <h2 class="subtitulo">Objetivos de apendizado:</h2>
+                        <ul class = " lista1">
+                            {{#each apr as |aprs index|}}
+                            <li> {{aprs}} </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                
+                    <div class = "apr2">
+                        <h2 class="subtitulo">Detalhes do projeto:</h2>
+                        <ul class = "lista1"> 
+                            {{#each apr2 as |aprs2 index|}}
+                            <li> {{aprs2}} </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                
+
+        
+
+                    <img id="foto2" src ="{{imagem2}}" alt = "Placa de circuito">
+
+                    <div class = "apr3">
+                        <h2 class="subtitulo">Conhecimentos/Materiais necessários:</h2>
+
+                        <h4 id="subsubtitulo">Conhecimentos prévios:</h4>
+                        <ul class = "lista1">
+                            {{#each coPre as |cprev index|}}
+                            <li> {{cprev}} </li>
+                            {{/each}}
+                        </ul>
+
+                        <h4 id="subsubtitulo1">Materiais:</h4>
+                        <ul class = " lista1">
+                            {{#each Materiais as |mat index|}}
+                            <li> {{mat}} </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+	</body>
+</html>

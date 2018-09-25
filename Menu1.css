@@ -1,0 +1,370 @@
+#home { 
+	margin-left: 2%;
+	max-width: 4.5em;
+	min-width: 4.5em;
+	margin-left: auto;
+	padding: 0.5rem;
+}
+
+#fotologo {	
+	margin: 0.5rem;
+	max-width: 6.9em;
+	min-width: 6.9em;
+}
+
+#logo { 
+	font-size: 2.2rem;
+	color: white;
+	font-weight: bold;
+	margin: 0.3em;
+	font-family: Poppins;
+}
+
+#volta-menu {
+	max-width: 2rem;
+	min-width: 2em;
+	grid-column-start:  5;
+	grid-column-end: 6;
+	grid-row-start:  2;
+	grid-row-end: 3;
+}
+
+#aux1 {
+
+}
+
+.secao1 {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row nowrap;
+	width: auto;
+	background-color: rgb(40, 110, 178);
+	border-style: solid;
+	border-width: 0.125rem;
+	margin: 1.25rem;
+	padding: 0.25rem;
+	align-items: center;
+}
+
+a {	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.link-tit {color: rgb(255, 250, 241);
+	text-decoration: none;
+}
+
+.link-tit:hover {
+	color: #000000;
+}
+
+.nav-menu{
+	border: solid;
+	position: relative;
+	font-family: Poppins;
+	font-weight: bold;
+	margin: 1.5rem;
+	background-color: rgb(57, 158, 255);
+	padding: 1rem;
+	display: inline-block;
+	border-width: 0.1rem;
+	width: auto;
+}
+
+.link {
+	position: relative;
+	margin: 0.2rem;
+	margin-right: 0.6rem;
+	padding: 1.5rem;
+	display: inline;
+}
+
+.subtitulo {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+}
+
+#subsubtitulo{
+	font-family: Poppins;
+	font-size: 1.05rem;
+	line-height: 1.3rem;
+}
+
+#subsubtitulo1{
+	font-family: Poppins;
+	font-size: 1.05rem;
+	line-height: 1.3rem;
+}
+
+
+.submenu {
+    background-color: rgb(57, 158, 255);
+    border: 1px solid #000000;
+    position: absolute;
+    top: 3rem;
+    left: -1px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+    z-index: 9;
+}
+
+.link:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.submenu-item {
+    padding: .25rem;
+    
+}
+
+.submenu-item:hover {
+    color: white;
+}
+
+.gp {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 5% 25% 20% 20%;
+	grid-gap: 1.25rem 1.25rem;
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+#foto1 {
+	grid-column-start:  2;
+	grid-column-end: 3;
+	max-width: 20rem;
+	max-height: 20rem;
+}
+
+#foto2 {
+	grid-column-start:  3;
+	grid-column-end: 4;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#foto3 {
+	grid-column-start:  4;
+	grid-column-end: 5;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#foto4 {
+	grid-column-start:  5;
+	grid-column-end: 6;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+
+
+@media (max-width: 360px) {
+
+	.secao1 {
+		width: auto;
+	}
+	#logo { 
+		font-size: 1.3rem;
+	}
+
+	#fotologo {	
+		margin: 0.2rem;
+		max-width: 22%;
+		min-width: 22%;
+	}
+
+	#volta-menu {
+		max-width: auto;
+		min-width: auto;
+		
+	}
+
+	#home { 
+		
+		max-width: 11%;
+		min-width: 11%;
+	}
+
+	#aux1 {
+		
+	}
+
+	.nav-menu {
+		background-color: rgb(57, 158, 255);
+		display: block;
+		position: fixed;
+        top: 2.5rem;
+        margin-left: 1.27rem;
+        width: 50%;
+        visibility: hidden;
+        opacity: 0;
+		transition: left .5s;
+		z-index: 4;
+	}
+
+	.nav-menu:hover {
+		visibility: visible;
+		opacity: 1;
+	}
+	.secao1:hover + .nav-menu {
+	 	opacity: 1;
+	    visibility: visible;
+	}
+  
+	.link {
+        padding: 0.5rem;
+        line-height: 2rem;
+        display: block;
+       }
+
+    .link:hover {
+        background-color: yellow;
+    	color: black;
+    }
+
+    .submenu {
+	    position: absolute;
+	    top: 0rem;
+	    left: 10rem;
+	    width: 76%;
+	}
+
+	.gp {
+		grid-template-columns: 10% 80% 10%;
+		grid-template-rows:  25% 25% 25% 25%;
+	}
+
+	#foto1 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  2;
+		grid-row-end: 3;
+	}
+
+	#foto2 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  3;
+		grid-row-end: 4;
+	}
+
+	#foto3 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  4;
+		grid-row-end: 5;
+	}
+
+	#foto4 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  5;
+		grid-row-end: 6;
+	}
+}
+
+@media (min-width: 361px) and (max-width: 650px) {
+
+	.secao1 {
+		width: auto;
+	}
+	#logo { 
+		font-size: 1rem;
+	}
+
+	#fotologo {	
+		margin: 0.2rem;
+		max-width: 15%;
+		min-width: 15%;
+	}
+	
+	#home { 
+		
+		max-width: 11%;
+		min-width: 11%;
+	}
+
+	.nav-menu {
+		background-color: rgb(57, 158, 255);
+		display: block;
+		position: fixed;
+        top: 2.5rem;
+        margin-left: 1.27rem;
+        width: 50%;
+        visibility: hidden;
+        opacity: 0;
+		transition: left .5s;
+		z-index: 4;
+	}
+
+	.nav-menu:hover {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.secao1:hover + .nav-menu {
+	 	opacity: 1;
+	    visibility: visible;
+	}
+  
+	.link {
+        padding: 0.5rem;
+        line-height: 2rem;
+        display: block;
+    }
+       
+    .submenu {
+	    position: absolute;
+	    top: 0rem;
+	    left: 10rem;
+	    width: 76%;
+	}
+
+    .link:hover {
+        background-color: yellow;
+    	color: black;
+    }
+
+	.gp {
+		grid-template-columns: 10% 80% 10%;
+		grid-template-rows:  25% 25% 25% 25%;
+	}
+
+	#foto1 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  2;
+		grid-row-end: 3;
+	}
+
+	#foto2 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  3;
+		grid-row-end: 4;
+	}
+
+	#foto3 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  4;
+		grid-row-end: 5;
+	}
+
+	#foto4 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  5;
+		grid-row-end: 6;
+	}
+}
