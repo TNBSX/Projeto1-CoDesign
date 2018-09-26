@@ -1,23 +1,25 @@
+ function before() {
+      let test = document.querySelector('.mocador')
+      test.classList.add('hidden')
+      
+      let load = document.querySelector('.load')
+      load.classList.remove('hidden')
+      
+      setTimeout(after, 2000)
+  }
 
-function before() {
-    let test = document.querySelector('.mocador')
-    test.classList.add('hidden')
-    
-    let load = document.querySelector('.load')
-    load.classList.remove('hidden')
-    
-    setTimeout(after, 2000)
-}
+  function after() {
+      let test = document.querySelector('.mocador')
+      test.classList.remove('hidden')
+      
+      let load = document.querySelector('.load')
+      load.classList.add('hidden')
+  }
 
-function after() {
-    let test = document.querySelector('.mocador')
-    test.classList.remove('hidden')
-    
-    let load = document.querySelector('.load')
-    load.classList.add('hidden')
-}
 
 document.addEventListener('DOMContentLoaded', function() {
+ 
+
   /*
     Se não sabe o que é isto, volte ao ingrediente 2.
   */
@@ -44,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
     /*
       Se não sabe o que é isto, volte ao ingrediente 3.
     */
-    console.log(data)
     replace('body', {
         'titulo': data['titulo'],
         'disciplina':  params['course'],//data['courses'],

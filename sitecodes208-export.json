@@ -1,0 +1,213 @@
+{
+  "Design" : {
+    "courses" : {
+      "CoDes" : {
+        "apr" : [ "Analisar usuários a partir de entrevistas e hipóteses", "Sintetizar questões de projeto a partir de análises de usuários", "Criar conceitos de aplicativo a partir de questões de projeto", "Aplicar ferramentas de design gráfico e tecnologias de front-end web em prototipação digital", "Avaliar protótipos digitais a partir de personas e cenários" ],
+        "apr2" : [ "Projeto em grupo de 4 alunos", "Prazo: 2 meses", "Peso na nota do semestre: " ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Programar em HTML", "Programar em JAVA", "Programar em JSON", "Programar em CSS" ],
+          "Materiais" : [ "HTML", "JAVA", "JSON", "CSS" ]
+        },
+        "imagem1" : "https://i.imgur.com/Jruclhw.jpg",
+        "imagem2" : "https://i.imgur.com/4904Xiw.jpg",
+        "obj" : [ "Desenvolver um protótipo de aplicativo, visando o usuário." ],
+        "titulo" : "Projeto Final de Co-Design de Aplicativos"
+      },
+      "NatDes" : {
+        "apr" : [ "Identificar e abordar problemas de design", "Apresentar oralmente os resultados do processo de design", "Utilizar técnicas de fabricação digital para prototipar soluções" ],
+        "apr2" : [ "Projeto em grupo de 5 alunos", "Prazo: 2 meses", "Peso na nota do semestre: 60% da nota final" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Desenho técnico", "CAD", "Utilização das máquinas do FabLab" ],
+          "Materiais" : [ "CAD", "MDF", "Máquinas do FabLab", "papel", "outros materiais" ]
+        },
+        "imagem1" : "https://i.imgur.com/l8T9l55.jpg",
+        "imagem2" : "https://i.postimg.cc/Px70SN18/Whats_App_Image_2018-09-25_at_18.47.15.jpg",
+        "obj" : [ "O projeto tem como objetivo a prototipação de uma carroça, envolvendo a fase de ideação, criação de sketchs, desenho técnico(CAD) e criação de um pequeno protótipo." ],
+        "titulo" : "Melhoria para carroças de catadores"
+      }
+    },
+    "titulo" : "Design"
+  },
+  "EleMat" : {
+    "courses" : {
+      "Acionas" : {
+        "apr" : [ "Modelar matematicamente circuitos elétricos de primeira e segunda ordem;", "Analisar diagramas de circuitos elétricos;", "Simular circuitos elétricos;", "Projetar um circuito elétrico para o acionamento de cargas de natureza variada utilizando a estratégia de modulação por largura de pulso (PWM);", "Selecionar componentes a serem utilizados nos projetos valendo-se de datasheets e fontes de informação fornecidas pelos fabricantes." ],
+        "apr2" : [ "Projeto em grupo de 3 alunos", "Prazo: 2 meses", "Peso na nota do semestre: 25% da nota final" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Eletrônica analógica" ],
+          "Materiais" : [ "Kit multi-lógica", "AmpOp's" ]
+        },
+        "imagem1" : "https://i.imgur.com/WO512Ha.jpg",
+        "imagem2" : "https://i.imgur.com/XAEJgbh.jpg",
+        "obj" : [ "Os alunos deverão construir e apresentar um circuito que utilize um oscilador, integrador e comparador para gerar um sinal PWM que seja utilizado para acionar uma carga elétrica." ],
+        "titulo" : "Projeto Final de Acionamentos Elétricos"
+      },
+      "DescontMat" : {
+        "apr" : [ "Em Breve...", "O1" ],
+        "apr2" : [ "Em Breve...", "Em Breve...", "Em Breve..." ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Em Breve...", "Em Breve..." ],
+          "Materiais" : [ "Em Breve...", "Em Breve...", "Em Breve..." ]
+        },
+        "imagem1" : "https://i.imgur.com/mDYQx4W.jpg",
+        "imagem2" : "https://i.imgur.com/bgYzZqv.jpg",
+        "obj" : [ "Em Breve..." ],
+        "titulo" : "Projeto Final de Desconstruindo a Matéria"
+      },
+      "Girafa" : {
+        "apr" : [ "Aprender a utilizar as máquinas do FabLab" ],
+        "apr2" : [ "Projeto em grupo de 4 pessoas", "Prazo: 1 mês", "Esse projeto não entra na composição da nota" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Nenhum" ],
+          "Materiais" : [ "Madeira", "LED", "Placa de cobre", "PLA (material da impressora 3D)" ]
+        },
+        "imagem1" : "https://i.imgur.com/y7GYy2O.jpg",
+        "imagem2" : "https://i.imgur.com/1UT9LRk.jpg",
+        "obj" : [ "Esse projeto tem como objetivo construir uma girafa de madeira com uma lampâda, utilizando as máquinas do FabLab." ],
+        "titulo" : "Girafa do Job Rotation"
+      },
+      "Instrumed" : {
+        "apr" : [ "Conceitos basicos sobre eletrônica e ligações ", "Construção de uma plca shield para o arduino", "Utilização da linguagem C para o arduino", "Saber diferenciar sensores e sinais digitais de analógicos", "Aprender a calibrar diversos sensores baseado em suas peculiaridades", "Aprender a propagar e transferiri incertezas utilizando o Excel" ],
+        "apr2" : [ "Projeto em grupo de 3 alunos", "Prazo: 1 mês", "Peso na nota do semestre: 15% da nota final" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Sensores analógicos e digitais", "Calibração de sensores", "Confecção de placa de cobre", "Manuseio do Eagle Autodesk", "Programação Arduino UNO", "Lei de Ohm", "Ponte de Wheatstone (ganho)" ],
+          "Materiais" : [ "1 sensor LM35 (para temperatura)", "1 sensor DHT22 (para umidade)", "1 sensor BMP 180 (para pressão)", "1 sensor LDR (de luminosidade)", "1 display LCD 2x16, uma Protoboard", "1 Resistência de 10k ohms", "1 Resistência de 1k ohms", "1 placa de cobre", "1 Arduino (Shield)" ]
+        },
+        "disciplina" : "Instrumentação e medição",
+        "imagem1" : "https://i.imgur.com/auBmzON.jpg",
+        "imagem2" : "https://i.imgur.com/Tc73lve.jpg",
+        "obj" : [ "O projeto tem como objetivo construir uma estação meteorológica em uma placa Shield que será acoplada à uma placa Arduino Uno. A estação será formada por quatro sensores que irão medir a temperatura, umidade, pressão e luminosidade, mostrando os resultados medidos em um display LCD. Para cada sensor acoplado na placa, iremos realizar uma análise de incertezas dos dados e de todas as medições feitas, determinando também as curvas de calibração e equações dos sensores através do Excel, utilizando o Método dos Mínimos Quadrados (MMQ)." ],
+        "titulo" : "Estação Meteorológica"
+      },
+      "ModCont" : {
+        "apr" : [ "Em Breve...", "Em Breve..." ],
+        "apr2" : [ "Em Breve...", "Em Breve...", "Em Breve..." ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Em Breve...", "Em Breve..." ],
+          "Materiais" : [ "Em Breve...", "Em Breve...", "Em Breve..." ]
+        },
+        "imagem1" : "https://i.imgur.com/62eKfor.jpg",
+        "imagem2" : "https://i.imgur.com/evQwHPD.jpg",
+        "obj" : [ "Em Breve..." ],
+        "titulo" : "Projeto Final de Modelagem e Controle"
+      }
+    },
+    "titulo" : "Elétrica e Materiais"
+  },
+  "Emp" : {
+    "courses" : {
+      "Inovação" : {
+        "apr" : [ "Em Breve...", "Em Breve..." ],
+        "apr2" : [ "Em Breve...", "Em Breve..." ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Em Breve...", "Em Breve..." ],
+          "Materiais" : [ "Em Breve...", "Em Breve...", "Em Breve..." ]
+        },
+        "imagem1" : "https://i.imgur.com/xmHxRzG.jpg",
+        "imagem2" : "https://i.imgur.com/SZhhwme.jpg",
+        "obj" : [ "Em Breve..." ],
+        "titulo" : "Inovação incremental para empresa existente"
+      },
+      "ModNeg" : {
+        "apr" : [ "Em Breve...", "Em Breve..." ],
+        "apr2" : [ "Em Breve...", "Em Breve..." ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Em Breve...", "Em Breve..." ],
+          "Materiais" : [ "Em Breve...", "Em Breve...", "Em Breve..." ]
+        },
+        "imagem1" : "https://i.imgur.com/1LUPzaa.jpg",
+        "imagem2" : "https://i.imgur.com/oXKinSV.jpg",
+        "obj" : [ "Em Breve..." ],
+        "titulo" : "Modelagem de Negócios para start-up nova"
+      }
+    },
+    "titulo" : "Empreendedorismo"
+  },
+  "HumPC" : {
+    "courses" : {
+      "GDE" : {
+        "apr" : [ "Entender e explicar as relações interdisciplinares entre ciência, tecnologia e sociedade", "Comparar e prever os efeitos de diferentes escolhas tecnológicas em distintos contextos sociais e econômicos", "Analisar e avaliar os usos sociais da tecnologia à luz de temas contemporâneos", "Cada um deles varia com o tema do case" ],
+        "apr2" : [ "Projeto em grupo de 6 alunos", "Prazo: variável (1 mes ~ 2 meses e meio)", "Peso na nota do semestre: 35% da nota" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Nenhum" ],
+          "Materiais" : [ "Livros para consulta" ]
+        },
+        "imagem1" : "https://i.imgur.com/lb2jAey.jpg",
+        "imagem2" : "https://i.imgur.com/QvIVO6K.jpg",
+        "obj" : [ "Esse projeto tem como objetivo a criação de cases sobre diversos assuntos relacionados a tecnologia e pesnamento crítico, e a apresenação oral dos mesmos." ],
+        "titulo" : "Cases de Grandes Desafios da Engenharia"
+      }
+    },
+    "titulo" : "Humanas/Pensamento Crítico"
+  },
+  "Mat" : {
+    "courses" : {
+      "MatMulti" : {
+        "apr" : [ "Em Breve...", "Em Breve..." ],
+        "apr2" : [ "Em Breve...", "Em Breve...", "Em Breve..." ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Em Breve...", "Em Breve..." ],
+          "Materiais" : [ "", "", "" ]
+        },
+        "imagem1" : "https://i.imgur.com/PGyF1sA.jpg",
+        "imagem2" : "https://i.imgur.com/lHN3rXb.png",
+        "obj" : [ "Em Breve..." ],
+        "titulo" : "Projeto Final de Matemática Multivariada"
+      },
+      "MatVar" : {
+        "apr" : [ "Quantificar, interpretar e expressar algébrica e graficamente as taxas de variação média e instantânea de uma grandeza em relação a outra (OA1).", "Interpretar e calcular o valor acumulado de uma variável dependente com a alteração do valor da variável independente (OA2).", "Utilizar os conceitos e ferramentas vistos no curso para criar modelos de situações da realidade, envolvendo principalmente equações diferenciais, com o objetivo de estabelecer previso~es e tomar decisões (OA3).", "Utilizar ferramentas da Álgebra Linear para resolver modelos matemáticos originados da caracterização de sistemas dinâmicos (OA4).", "Aprender a aprender matemática, ou seja, deve desenvolver autonomia, em relação ao conhecimento matemático, para buscar fontes de estudo e selecionar métodos que tornem seu aprendizado mais eficiente (OA5)." ],
+        "apr2" : [ "Projeto em grupo de 2 ou 3 alunos", "Prazo: 1 mês", "Peso na nota do semestre: 100% da nota da avaliação em grupo" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Cálculo 1", "Conhecimentos básicos de cálculo 3" ],
+          "Materiais" : [ "Nenhum" ]
+        },
+        "imagem1" : "https://i.imgur.com/HjbIGVO.jpg",
+        "imagem2" : "https://i.postimg.cc/rpV6mB8z/Whats_App_Image_2018-09-25_at_18.37.35.jpg",
+        "obj" : [ "Cada dupla ou trio deverá apresentar um mini-seminário sobre um tópico de Cálculo Diferencial e Integral não trabalhado durante as aulas da disciplina " ],
+        "titulo" : "Projeto Final de Matemática da Variação"
+      },
+      "ModSim" : {
+        "apr" : [ "Criar modelos de diferentes tipos de sistemas, usando diferentes estratégias de abstração.", "Implementar solução numérica de modelos de sistemas dinâmicos usando a linguagem de programação Python.", "Utilizar técnicas comuns de validação de modelos a partir de dados dos sistemas reais correspondentes.", "Elaborar conclusões a partir do comportamento observado para os modelos simulados.", "Comunicar oralmente um conteúdo técnico, com auxílio de um cartaz e/ou apresentação de slides" ],
+        "apr2" : [ "Projeto em grupo de 2 alunos", "Prazo: 1 mês", "Peso na nota do semestre: ~25% da nota final" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Python" ],
+          "Materiais" : [ "Computador com jupyter notebook" ]
+        },
+        "imagem1" : "https://i.postimg.cc/R0dBLMPc/modsim2.png",
+        "imagem2" : "https://i.postimg.cc/nLBsFQhn/modsim.png",
+        "obj" : [ "Elaborar um sistema mecânico de segunda ordem, implementado em Python e apresentado oralmente." ],
+        "titulo" : "Projeto Final de Modelagem e Simulação do Mundo Físico"
+      }
+    },
+    "titulo" : "Matemática"
+  },
+  "Prog" : {
+    "courses" : {
+      "cdados" : {
+        "apr" : [ "Selecionar informações de bancos de dados, tratá-los e prepará-los para processamento.", "Especificar as distribuições de probabilidades adequadas para as variáveis quantitativas discretas e contínuas.", "Conduzir testes inferenciais adequados que possam dar base à tomada de decisão.", "Analisar relações entre as variáveis, utilizando ferramentas estatísticas inferenciais adequadas." ],
+        "apr2" : [ "Projeto em grupo de 2 ou 3 alunos", "Prazo: 2 semanas", "Peso na nota do semestre: 10% da nota final" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Pandas", "Python" ],
+          "Materiais" : [ "Computador com jupyter notebook instalado" ]
+        },
+        "imagem1" : "https://i.postimg.cc/0jR18br1/Whats_App_Image_2018-09-25_at_21.39.37.jpg",
+        "imagem2" : "https://i.imgur.com/CNVni26.jpg",
+        "obj" : [ "Elaborar análises exploratórias de dados (univariadas e multivariadas), utilizando ferramentas estatísticas e computacionais adequadas." ],
+        "titulo" : "Projeto Final de Ciência dos Dados"
+      },
+      "dessoft" : {
+        "apr" : [ "Desenvolver programas de computador.", "Identificar e programar estratégias computacionais de resolução de problemas práticos.", "Atuar em uma equipe gerenciada por métodos ágeis." ],
+        "apr2" : [ "Projeto em grupo de 3 alunos", "Prazo: 2 meses", "Peso na nota do semestre: 20% da nota final" ],
+        "apr3" : {
+          "Conhecimentos prévios" : [ "Nenhum" ],
+          "Materiais" : [ "Computador com python 3 instalado" ]
+        },
+        "imagem1" : "https://i.imgur.com/zV9OunJ.jpg",
+        "imagem2" : "https://i.imgur.com/pzuCAAv.jpg",
+        "obj" : [ "Criar um jogo ou site em python autilizando a biblioteca Pygame" ],
+        "titulo" : "Projeto Final de Design de Software"
+      }
+    },
+    "titulo" : "Programação"
+  }
+}

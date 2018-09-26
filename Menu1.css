@@ -132,7 +132,8 @@ a:hover {
 .gp {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 5% 25% 20% 20%;
+	grid-template-columns: 5% 25% 20% 20% 25% 5%;
+	grid-template-rows: 40% 10% 40%;
 	grid-gap: 1.25rem 1.25rem;
 	width: 100%;
 	margin-bottom: 5%;
@@ -141,8 +142,11 @@ a:hover {
 #foto1 {
 	grid-column-start:  2;
 	grid-column-end: 3;
-	max-width: 20rem;
-	max-height: 20rem;
+	max-width: 100%;
+	max-height: 100%;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
 }
 
 #foto2 {
@@ -150,6 +154,9 @@ a:hover {
 	grid-column-end: 4;
 	max-width: 100%;
 	max-height: 100%;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
 }
 
 #foto3 {
@@ -157,13 +164,39 @@ a:hover {
 	grid-column-end: 5;
 	max-width: 100%;
 	max-height: 100%;
+	grid-row-start: 3;
+	grid-row-end: 4;
+
 }
 
 #foto4 {
 	grid-column-start:  5;
 	grid-column-end: 6;
-	max-width: 50%;
-	max-height: 50%;
+	max-width: 100%;
+	max-height: 100%;
+	grid-row-start: 3;
+	grid-row-end: 4;
+
+}
+
+#foto5 {
+	grid-column-start:  4;
+	grid-column-end: 6;
+	max-width: 100%;
+	max-height: 100%;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+
+#foto6 {
+	grid-column-start:  2;
+	grid-column-end: 4;
+	max-width: 100%;
+	max-height: 100%;
+	grid-row-start: 2;
+	grid-row-end: 4;
+
 }
 
 
@@ -249,6 +282,8 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  2;
 		grid-row-end: 3;
+		max-width: auto;
+		min-width: auto;
 	}
 
 	#foto2 {
@@ -256,6 +291,8 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  3;
 		grid-row-end: 4;
+		max-width: auto;
+		min-width: auto;
 	}
 
 	#foto3 {
@@ -263,6 +300,8 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  4;
 		grid-row-end: 5;
+		max-width: auto;
+		min-width: auto;
 	}
 
 	#foto4 {
@@ -270,10 +309,29 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  5;
 		grid-row-end: 6;
+		max-width: auto;
+		min-width: auto;
+	}
+	#foto5 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  6;
+		grid-row-end: 7;
+		max-width: auto;
+		min-width: auto;
+	}
+
+	#foto6 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  7;
+		grid-row-end: 8;
+		max-width: auto;
+		min-width: auto;
 	}
 }
 
-@media (min-width: 361px) and (max-width: 650px) {
+@media (min-width: 361px) and (max-width: 750px) {
 
 	.secao1 {
 		width: auto;
@@ -337,7 +395,7 @@ a:hover {
 
 	.gp {
 		grid-template-columns: 10% 80% 10%;
-		grid-template-rows:  25% 25% 25% 25%;
+		grid-template-rows:  25% 25% 25% 25% 25% 25%;
 	}
 
 	#foto1 {
@@ -345,6 +403,8 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  2;
 		grid-row-end: 3;
+		max-width: auto;
+		max-height: auto;
 	}
 
 	#foto2 {
@@ -352,6 +412,8 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  3;
 		grid-row-end: 4;
+		max-width: auto;
+		max-height: auto;
 	}
 
 	#foto3 {
@@ -359,6 +421,8 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  4;
 		grid-row-end: 5;
+		max-width: auto;
+		max-height: auto;
 	}
 
 	#foto4 {
@@ -366,5 +430,24 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start:  5;
 		grid-row-end: 6;
+		max-width: auto;
+		max-height: auto;
+	}
+	#foto5 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  6;
+		grid-row-end: 7;
+		max-width: auto;
+		max-height: auto;
+	}
+
+	#foto6 {
+		grid-column-start:  2;
+		grid-column-end: 3;
+		grid-row-start:  7;
+		grid-row-end: 8;
+		max-width: auto;
+		max-height: auto;
 	}
 }
